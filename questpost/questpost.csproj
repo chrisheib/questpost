@@ -15,6 +15,9 @@
     <PackageReference Include="BepInEx.Core" Version="5.*" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <PackageReference Include="UnityEngine.Modules" Version="2019.3.15" IncludeAssets="compile" />
+    <Reference Include="SunHaven.Core">
+      <HintPath>../../../SunHaven.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
