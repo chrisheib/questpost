@@ -1,0 +1,1 @@
+requires SunHaven.Core.dll in directory
